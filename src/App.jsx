@@ -1,17 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import { styled } from "styled-components";
-import AddForm from './components/AddForm';
-import Task from './components/Task';
-import DeleteTask from './components/DeleteTask';
-
-
+import ErrorPage from './page/404Page';
+import Home from './page/Home';
 
 
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <Home/>
+      {/* <ErrorPage/> */}
     </div>
   );
 }
